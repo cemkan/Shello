@@ -1,5 +1,3 @@
-// Shello.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <windows.h>
@@ -10,8 +8,6 @@
 BOOL ListProcessThreads();
 void SetTaskPriority(const int par_nThreadID, const int par_nPriority);
 void TestFunc(int par_nArg1, bool par_bArg2, short par_sArg3);
-
-
 
 
 #pragma warning(disable : 4996)
@@ -86,10 +82,6 @@ int main()
         if(strlen(cpUserCmd) > 1)
             ParseInput(cpUserCmd);
     }
-    
-
-
-
 }
 
 
@@ -155,15 +147,3 @@ void TestFunc(int par_nArg1, bool par_bArg2, short par_sArg3)
 {
     printf("\nTest Func called with par_nArg1:%d, bool par_bArg2:%d, short par_sArg3:%d", par_nArg1, par_bArg2, par_sArg3);
 }
-
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
