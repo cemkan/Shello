@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shello", "Shello\Shello.vcxproj", "{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SymbolTableTest", "..\..\..\..\Users\user\source\repos\SymbolTableTest\SymbolTableTest\SymbolTableTest.vcxproj", "{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Debug|x64.ActiveCfg = Debug|x64
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Debug|x64.Build.0 = Debug|x64
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Debug|x86.Build.0 = Debug|Win32
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Release|x64.ActiveCfg = Release|x64
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Release|x64.Build.0 = Release|x64
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Release|x86.ActiveCfg = Release|Win32
+		{B29147D1-A710-4D1C-AFCD-0FE10B7F611F}.Release|x86.Build.0 = Release|Win32
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Debug|x64.ActiveCfg = Debug|x64
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Debug|x64.Build.0 = Debug|x64
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Debug|x86.Build.0 = Debug|Win32
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Release|x64.ActiveCfg = Release|x64
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Release|x64.Build.0 = Release|x64
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Release|x86.ActiveCfg = Release|Win32
+		{D8A846D4-55A5-4210-B7D9-ED28B0094FEF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B7321B5-F8C4-4702-8CF6-0EC8F806E3D6}
+	EndGlobalSection
+EndGlobal
